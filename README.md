@@ -7,13 +7,13 @@ Study Buddy is discord bot useful for both students as well as teachers
 User should have discord account to use Study Buddy.
 
 
-## Commands to use bot
+## Bot Commands
 
-```We will update soon
-```
+We will update soon
+
 
 ## Devlopers 
-Daulatrao Patil
-Dnyaneshwari Kolapkar
-Ravi Jha
-Om Gharge
+\n Daulatrao Patil
+\n Dnyaneshwari Kolapkar
+\n Ravi Jha
+\n Om Gharge
