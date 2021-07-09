@@ -13,7 +13,7 @@ We will update soon
 
 
 ## Devlopers 
-\n Daulatrao Patil
-\n Dnyaneshwari Kolapkar
-\n Ravi Jha
-\n Om Gharge
+- Daulatrao Patil
+- Dnyaneshwari Kolapkar
+- Ravi Jha
+- Om Gharge
