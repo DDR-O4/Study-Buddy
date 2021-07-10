@@ -4,7 +4,7 @@ Study Buddy is a discord bot useful for both students as well as teachers
 
 ## Requirement 
 
-User should have discord account to use Study Buddy.
+User should have discord account to use Study Buddy. <br/>
 Invite the bot to your discord server.
 
 
