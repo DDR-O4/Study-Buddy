@@ -1,6 +1,6 @@
 # STUDY BUDDY
 
-Study Buddy is discord bot useful for both students as well as teachers
+Study Buddy is a discord bot useful for both students as well as teachers
 
 ## Requirement 
 
@@ -12,7 +12,7 @@ User should have discord account to use Study Buddy.
 We will update soon
 
 
-## Devlopers 
+## Developers 
 - Daulatrao Patil
 - Dnyaneshwari Kolapkar
 - Ravi Jha
