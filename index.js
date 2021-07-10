@@ -3,7 +3,7 @@ const client = new Discord.Client()
 const config = require('./config.json')
 
 client.on('ready', () => {
-  console.log('The client is ready!')
+  console.log('Connected As ' + client.user.tag);
 })
 
 client.on('message', message =>{
