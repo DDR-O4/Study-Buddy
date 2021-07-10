@@ -17,7 +17,10 @@ module.exports = {
 			.setDescription(suggestionArg)
 			.setFooter('Study Buddy here to help!', 'https://i.imgur.com/Eey6gzU.png');
 
-		// channel.send(embed);
+		//message.channel.send(`Suggestion Submitted.\nYou can view your suggestion in ${channel} `);
+        message.channel.send(`Suggestion Submitted.\nYou can view your suggestion in ${channel} `).then((msg) => {
+			setTimeout(() => msg.delete(), 10000);
+		})
 
 		channel.send(embed).then((msg) =>{
 			// rect with emoji '+1', '-1' to the suggestion msg
