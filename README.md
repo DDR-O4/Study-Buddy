@@ -1,6 +1,6 @@
 # STUDY BUDDY
 
-Study Buddy is a discord bot useful for both students as well as teachers
+Study Buddy is a discord bot useful for both students as well as teachers 
 
 ## Requirement 
 
