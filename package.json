@@ -1,35 +1,16 @@
+  
 {
-<<<<<<< HEAD
-  "name": "Team-DDR-O4",
-  "version": "1.0.0",
-  "description": "Study Buddy is a discord bot useful for both students as well as teachers",
-=======
-  "name": "study-buddy",
-  "version": "1.0.0",
-  "description": "",
->>>>>>> d0543f5c039e1d18a6c284d40083965e8d58b889
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-<<<<<<< HEAD
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RAOexe/Team-DDR-O4.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RAOexe/Team-DDR-O4/issues"
-  },
-  "homepage": "https://github.com/RAOexe/Team-DDR-O4#readme",
-=======
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
->>>>>>> d0543f5c039e1d18a6c284d40083965e8d58b889
-  "dependencies": {
-    "discord.js": "^12.5.3"
+    "name": "study-buddy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "discord.js": "^12.5.3"
+    }
   }
-}
