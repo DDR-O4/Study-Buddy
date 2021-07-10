@@ -1,0 +1,23 @@
+{
+  "name": "Team-DDR-O4",
+  "version": "1.0.0",
+  "description": "Study Buddy is a discord bot useful for both students as well as teachers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAOexe/Team-DDR-O4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RAOexe/Team-DDR-O4/issues"
+  },
+  "homepage": "https://github.com/RAOexe/Team-DDR-O4#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
