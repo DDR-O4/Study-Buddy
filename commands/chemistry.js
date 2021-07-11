@@ -1,7 +1,7 @@
 const pagination = require('discord.js-pagination');
 
 module.exports = {
-	name: 'notes_chemistry',
+	name: 'notes_chem',
 	description: 'Send the Notes Of Chemistry',
 	permissions: [],
 
