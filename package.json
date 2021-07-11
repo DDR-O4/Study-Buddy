@@ -10,8 +10,13 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "convert-array-to-csv": "^2.0.0",
+        "csv-parser": "^3.0.0",
         "discord.js": "^12.5.3",
         "discord.js-pagination": "^1.0.3",
-        "dotenv": "^10.0.0"
+        "dotenv": "^10.0.0",
+        "luxon": "^1.28.0",
+        "node-cron": "^3.0.0",
+        "request": "^2.88.2"
     }
 }
