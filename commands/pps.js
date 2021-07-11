@@ -7,7 +7,7 @@ module.exports = {
 
 	execute(message, args, client, cmd, Discord) {
 
-		const page1 = new Discord.MessageEmbed()
+		const page1 = new Discord.MessageEmbed() 
 			.setTitle('Programming PDF Notes')
 			.setURL('https://drive.google.com/drive/u/2/folders/1tfgGOwq26j4rAjmdYLU0AUy7Tfke_jem')
 			.setDescription('This is the Drive Link For Programming PDF Notes')
