@@ -1,12 +1,13 @@
 module.exports = {
-    name: 'doubt',
-    aliases: ['question', 'Q'],
+    name: "doubt",
+    aliases: ['doubt', 'question', 'Q', 'q'],
     permissions: [],
-    
-    execute(message, args, prefix, client, cmd, Discord){
-        const channel = message.guild.channel.cache.find( c => c.name === 'doubts');
-        if(!channel) return message.channel.send('Still working on your doubts channel!');
+    description: 'Creates a doubt embed in the suggestion channel',
 
+    execute(message, args, cmd, client, Discord){
+        const channel = message.guild.channels.cache.find(c => c.name === 'doubts');
+        if(!channel) return message.reply('We are working on doubts channel!');
+        
         let doubtArg = args.join(' ');
         const embed = new Discord.MessageEmbed()
         .setColor('#00FF00')
@@ -26,6 +27,6 @@ module.exports = {
         }).catch((err) =>{
             throw err;
         });
-        
+
     }
 }
