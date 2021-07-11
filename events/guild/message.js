@@ -1,6 +1,3 @@
-//const {permissions} = require('../../commands/clear');
-//const { Permissions } = require(`discord.js`);
-
 require('dotenv').config();
 
 
@@ -72,15 +69,25 @@ module.exports = (Discord, client, message, callback) => {
 
         if(invalidPerms.length){
             return message.channel.send(`Missing Permission \` ${invalidPerms} \` `)
-            // for (let i = 0; i < invalidPerms.length; i++) {
-            //     return message.channel.send(`Missing Permission \` ${invalidPerms[i]} \` `);
-                
-            // }
         }
     }
 
     try{
         command.execute(message, args, cmd, client, Discord);
+
+        const channel = client.channels.cache.get('863705829017124864')
+
+        const Embed = new Discord.MessageEmbed()
+        .setColor('RANDOM')
+        .setTitle('Command Logs')
+        .setThumbnail('https://i.imgur.com/Eey6gzU.png')
+        .addFields(
+            { name:`${message.author.tag} has used ${command.name} in ${message.guild.name}`},
+        )
+        .setFooter('Study Buddy here to help!', 'https://i.imgur.com/Eey6gzU.png');
+
+        channel.send(Embed);
+
     } catch (err){
         message.reply("There was an error trying to execute this command!");
         console.log(err);
