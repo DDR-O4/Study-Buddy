@@ -18,4 +18,3 @@ We will update soon
 - Dnyaneshwari Kolapkar
 - Ravi Jha
 - Om Gharge
-- Devang
